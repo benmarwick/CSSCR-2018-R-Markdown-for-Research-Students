@@ -1,0 +1,14 @@
+---
+output: bookdown::html_document2
+---
+
+Here is a simple way to insert an amusing image:
+
+![](ten-min-per-day.gif)
+
+Here is my prefered way to insert an image, giving me more control over the caption and size (Figure \@ref(fig:cartoon)):
+
+```{r cartoon, fig.cap="A silly cartoon", echo = FALSE}
+knitr::include_graphics("ten-min-per-day.gif")
+```
+

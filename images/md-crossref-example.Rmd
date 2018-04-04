@@ -1,0 +1,11 @@
+---
+output: bookdown::html_document2
+---
+
+As you can see in Figure \@ref(fig:car-plot)
+
+
+```{r car-plot, fig.cap="Relationship of speed and distance for some cars", echo = FALSE}
+plot(cars)
+```
+

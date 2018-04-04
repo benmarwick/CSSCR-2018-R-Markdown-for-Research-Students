@@ -1,0 +1,16 @@
+This is an [R Markdown](http://rmarkdown.rstudio.com) document. Markdown is a simple formatting syntax for authoring HTML, PDF, and **MS Word** documents. 
+
+You can use R code in-line with your text. For example, there are `r nrow(mtcars)` samples in these data.
+
+You can also embed a longer chunk of R code to produce a plot like this:
+
+```{r echo = FALSE, fig.asp=1, fig.height=3, fig.width=3, warning = FALSE, fig.align = 'center', message=FALSE}
+library(ggplot2)
+ggplot(mtcars,
+       aes(mpg,
+           disp)) +
+  geom_point(size = 3) +
+  geom_smooth() +
+  theme_bw()
+```
+

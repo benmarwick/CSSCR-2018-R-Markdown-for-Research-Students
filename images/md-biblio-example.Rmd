@@ -1,0 +1,17 @@
+---
+bibliography: bibliography.bib
+---
+
+Blah blah [see @marwick_2017, pp. 33-35; also @driscoll_2016, ch. 1].
+
+Blah blah [@marwick_2017, pp. 33-35, 38-39 and *passim*].
+
+Blah blah [@marwick_2017; @driscoll_2016].
+
+Marwick says blah [-@marwick_2017].
+
+@marwick_2017 says blah.
+
+@marwick_2017 [p. 33] says blah.
+
+### References cited

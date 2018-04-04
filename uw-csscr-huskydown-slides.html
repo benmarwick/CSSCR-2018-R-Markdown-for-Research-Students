@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>R &amp; Markdown for Research Students</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ben Marwick" />
+    <meta name="date" content="2018-04-04" />
+    <link href="libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="my-theme.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# R &amp; Markdown for Research Students
+### Ben Marwick
+### 04 April 2018
+
+---
+
+
+
+
+
+class: normal, center
+
+# Motivation
+
+![](images/Marwick et al Fig 2 reproducible research spectrum.1200x1200.jpeg)
+
+---
+class: normal, center
+
+![](images/deadline.png)
+
+
+---
+class: normal
+
+# How can R &amp; Markdown help with common problems of dissertation writing?
+
+.large[&lt;i class="fa fa-frown-o"&gt;&lt;/i&gt; Getting &amp; staying organised]     
+.large[&lt;i class="fa fa-frown-o"&gt;&lt;/i&gt; Citation &amp; cross-referencing management]       
+.large[&lt;i class="fa fa-frown-o"&gt;&lt;/i&gt; Formatting multi-part documents]   
+.large[&lt;i class="fa fa-frown-o"&gt;&lt;/i&gt; Backing up files]    
+
+
+---
+
+class: normal
+
+# Why write in Markdown?
+
+.large[&lt;i class="fa fa-edit"&gt;&lt;/i&gt; Simple text formatting system]     
+.large[&lt;i class="fa fa-edit"&gt;&lt;/i&gt; 80% can be learned in 5 mins]     
+.large[&lt;i class="fa fa-edit"&gt;&lt;/i&gt; Extensible via LaTeX]     
+.large[&lt;i class="fa fa-edit"&gt;&lt;/i&gt; Plain text, cross-platform, flexible outputs]     
+
+---
+class: normal, center
+
+![](images/md-example.png)
+
+---
+class: normal, center
+
+![](images/rmarkdownoutputformats.png)
+
+
+---
+class: normal, center
+
+![](images/r-markdown-demo.png)
+
+
+---
+class: normal
+
+# Getting &amp; staying organised with Markdown &amp; R
+
+.large[&lt;i class="fa fa-lightbulb-o"&gt;&lt;/i&gt; One chapter = one md file]      
+.large[&lt;i class="fa fa-lightbulb-o"&gt;&lt;/i&gt; Images by reference only]      
+.large[&lt;i class="fa fa-lightbulb-o"&gt;&lt;/i&gt; Figure and table citation and cross-referencing is abstracted]   
+
+---
+class: normal, center
+
+![](images/md-image-example.png)
+
+---
+class: normal, center
+
+![](images/md-crossref-example.png)
+
+---
+
+class: normal
+
+# Easy citations &amp; bibliographies with Markdown &amp; R
+
+.large[&lt;i class="fa fa-book"&gt;&lt;/i&gt; Uses Bibtex system]      
+.large[&lt;i class="fa fa-book"&gt;&lt;/i&gt; Get bib format entries from Google Scholar &amp; Zotero et al. ]      
+.large[&lt;i class="fa fa-book"&gt;&lt;/i&gt; Very large variety of styles possible]   
+
+---
+class: normal, center
+
+![](images/md-bib-example.png)
+
+---
+class: normal, center
+
+![](images/md-biblio-example.png)
+
+---
+class: normal, center
+
+![](images/md-citr-demo.gif)
+
+---
+
+class: normal
+
+# Multipart documents made easy
+
+.large[&lt;i class="fa fa-thumbs-up"&gt;&lt;/i&gt; [Bookdown](https://bookdown.org/yihui/bookdown/) pkg for R]      
+.large[&lt;i class="fa fa-thumbs-up"&gt;&lt;/i&gt; Write in many Rmd files &amp; combine into one book]      
+.large[&lt;i class="fa fa-thumbs-up"&gt;&lt;/i&gt; Apply complex styles &amp; templates]  
+
+
+---
+class: normal, center
+
+![](images/huskydown-github.png)
+https://github.com/benmarwick/huskydown
+---
+
+class: normal, center
+
+![](images/huskydown-demo.gif)
+---
+
+class: normal, center
+
+![](images/kieran-healy-workflow-wide.png)
+
+Kieran Healy's "The Plain Person’s Guide to Plain Text Social Science" , http://plain-text.co
+
+---
+class: normal
+
+# Backing up files &amp; and sharing with others
+
+.large[&lt;i class="fa fa-github"&gt;&lt;/i&gt; Git is a version control and collaboration system ]     
+.large[&lt;i class="fa fa-github"&gt;&lt;/i&gt; R &amp; Markdown work well with Git]      
+.large[&lt;i class="fa fa-github"&gt;&lt;/i&gt; GitHub and many others offer free private storage for Git repositories]    
+
+---
+
+class: normal, center
+
+![](images/draw-owl.jpg)
+
+It can be hard to go from simple examples to the real thing we actually want.
+
+---
+class: normal, center
+
+# R &amp; Markdown are an easy way to make research more reproducible &amp; transparent
+
+![](images/Marwick et al Fig 2 reproducible research spectrum.1200x1200.jpeg)
+
+---
+class: normal
+
+# To conclude
+
+.large[&lt;i class="fa fa-check-square-o"&gt;&lt;/i&gt; In huskydown we have encoded many best practices in getting organised &amp; backing up]   
+
+.large[&lt;i class="fa fa-clock-o"&gt;&lt;/i&gt; Plain text systems are more robust &amp; flexible] 
+
+.large[&lt;i class="fa fa-recycle"&gt;&lt;/i&gt; We have a sustainable path to working reproducibly]
+
+---
+class: normal
+
+background-image: url(https://media.giphy.com/media/aO2xSELarYXfy/giphy.gif)
+
+
+---
+
+class: normal
+
+# Colophon
+
+.larger[
+Presentation written in [R Markdown using xaringan](https://github.com/yihui/xaringan)
+
+Compiled into HTML5 using [RStudio](http://www.rstudio.com/ide/) &amp; [knitr](http://yihui.name/knitr)
+
+Source code hosting:
+https://github.com/benmarwick/
+
+ORCID: http://orcid.org/0000-0001-7879-4531
+
+Licensing: 
+
+* Presentation: [CC-BY-3.0](http://creativecommons.org/licenses/by/3.0/us/)
+
+* Source code: [MIT](http://opensource.org/licenses/MIT) ]
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
